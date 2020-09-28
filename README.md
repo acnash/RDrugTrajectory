@@ -10,6 +10,7 @@ RDrugTrajctory provides an API for analysing raw CPRD EHRs. Functions available 
 - drug prescription incidence rate
 - survival analysis prescription to first event timeline generator 
 - drug prescription demographic data anlysis
+- mean cumulative function plots of drug prescriptions
 - many more function....
 
 ## Motivation
@@ -17,39 +18,57 @@ CPRD electronic healthcare records are delivered as flat text files. Researchers
 
 This R package came about as the result of supervising a post-graduate Clinical Neuroscience student. Their project, titled *"A Longitudinal Cohort Study of Migraine Preventative Medication Usage in UK CPRD"* required immediate access to primary care clinical and prescription records of patients suffering from headaches. The CPRD data can be very overwhelming, especially to those with little experience in electronic healthcare record and the manipulation of large data sets. To mitigate this concern I decided to build an R package for my student to use. Whilst I was writing the R package my student was putting it to use, performing the analysis necessary to answer the research aims whilst reporting bugs and suggesting additional features. 
 
-## Build status
-Under private-local construction until initial release.
+## Ethics
+The data attached to the package, images and examples presented here, and the images and examples in the accompanying publication (expected), **is fabricated and does not in any part represent real patient data.** The data presented in our accompanying researech articles has ISAC (Independent Scientific Advisory Committee - UK Gov) approval.
 
-## Code style
-The conventional R code style with original Java/C++ blocks (showing my age). I do not use the R dot-notation for naming variables and I have avoided the %>% infix notation where possible.  
+## Build status
+Under pre-alpha stage until initial release - expected, early October 2020. Learn more about software life-cycles <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha">here</a>.
 
 ## Screenshots
+Example results using **fabricated electronic healthcare records.**
 
-## Tech/framework used
+<img src="https://github.com/acnash/RDrugTrajectory/blob/master/images/prescription_frequency.png" width="450" />
 
-## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+**Figure 1.** First drug prescription (matched to a disease event e.g., headache) frequency. </br>
+
+<img src="https://github.com/acnash/RDrugTrajectory/blob/master/images/IMD_prescriptions.png" width="450" />
+
+**Figure 2.** Cumulative drug prescriptions stratified by patient IMD score.</br>
+
+<img src="https://github.com/acnash/RDrugTrajectory/blob/master/images/drug_switch.png" width="450" />
+
+**Figure 3.** Prescription drug changes. From first drug prescription matched with disease. The example does not take into account time. </br>
+
 
 ## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
+Whilst in pre-alpha and alpha development phase please download a release and install locally:
+
+    install.packages("path/to/tar/file", source = TRUE, repos=NULL) 
+    library(rCPRD) 
+
+## Code Example and Tutorial
+Please see the available R vignette and forth coming publication.  
+
+## Code style
+The conventional R code style with original Java/C++ code blocks (showing my age). I do not use the R dot-notation for naming variables and I have avoided the %>% infix notation where possible. The initial release 
 
 ## API Reference
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+Please see the available R vignette and forth coming publication. An API will be added here in due course.
 
 ## Tests
-Describe and show how to run the tests with code examples.
+There are basic unit tests one can run. Instruction will be added here in due course.
 
-## How to use?
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
-
-## Contribute
-Let people know how they can contribute into your project. A contributing guideline will be a big plus.
+## Problems, bugs, suggested features
+Please raise an issue for bug fixes or suggested features/improvements. **Please note:** the code is only maintained by myself (Anthony Nash). Unfortunately, issues won't be resolved overnight! I have students to supervise, fellowships and papers to write and my own research to be getting on with. Please be patient. 
 
 ## Credits
-Dr Anthony Nash PhD
-Tingyee Chang MSc 
-Dr Zameel Cader DPhil
+Dr Anthony Nash PhD, University of Oxford, Nuffield Department of Clinical Neurosciences - Design, development, test and research.
+Tingyee Chang MSc, University of Oxford, Nuffield Department of Clinical Neurosciences - Test and research.
+Dr Zameel Cader DPhil, University of Oxford, Nuffield Department of Clinical Neurosciences - Group lead.
 
+
+## Funding
+We are grateful to the Oxford Science Innovation, NIHR Oxford Biomedical Research Centre and NIHR Oxford Health Biomedical Research Centre (Informatics and Digital Health theme, grant BRC-1215-20005) for funding. The views expressed are those of the authors and not necessarily those of the UK National Health Service, the NIHR, or the UK Department of Health. 
 
 ## License
 MIT © Anthony Nash
