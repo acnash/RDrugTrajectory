@@ -3,7 +3,14 @@ An R package designed for the analysis of CPRD prescription electronic healthcar
 
 RDrugTrajctory provides an API for analysing raw CPRD EHRs. Functions available include:
 - loading & saving CPRD raw text files as R data.frames
+- works over the medical.txt and product.txt data files (part of the CPRD data dictionary - not supplied with RDrugTrajectory)
 - retrieving patient IDs, gender, age and index of multiple 
+- retrieve all prescriptions with a matching disease date
+- retrieve the first prescription event for a patient cohort
+- drug prescription incidence rate
+- survival analysis prescription to first event timeline generator 
+- drug prescription demographic data anlysis
+- many more function....
 
 ## Motivation
 CPRD electronic healthcare records are delivered as flat text files. Researchers have two choices, pay a lot of money to use existing tools or write tools of their own. Having faced this problem myself, three years ago I started developing my own set of R tool.
