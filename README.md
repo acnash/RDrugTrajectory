@@ -21,7 +21,9 @@ CPRD electronic healthcare records are delivered as flat text files. Researchers
 This R package came about as the result of supervising a very talented post-graduate Clinical Neuroscience student (please see Credits). The student's project, titled *"A Longitudinal Cohort Study of Migraine Preventative Medication Usage in UK CPRD"* required immediate access to primary care clinical and prescription records of patients suffering with headache disorders. The CPRD data can be very overwhelming, especially to those with little experience in electronic healthcare records or the manipulation of large data sets. To mitigate this concern I decided to develop a drug-prescription themed R API. Whilst I was writing the R package my student was putting it to use, performing the analysis necessary to answer the research aims whilst reporting bugs and suggesting additional features. My ethos is to build an R package that can interrogate CPRD records whilst requiring minimal R language experience (although some experience goes a long way).  
 
 ## Ethics
-The data attached to the package, images and examples presented here, and the images and examples in the accompanying publication (expected), **is fabricated and does not in any part represent real patient data.** The data presented in our accompanying researech articles has ISAC (Independent Scientific Advisory Committee - UK Gov) approval.
+<div class="text-purple">
+The data attached to the R package, images and examples presented here, and the images and examples in the accompanying publication (expected soon), **is fabricated and does not in any part represent real patient data.** Our accompanying researech articles have ISAC (Independent Scientific Advisory Committee - UK Gov) approval.
+</div>
 
 ## Build status
 Under pre-alpha stage until initial release - expected, early October 2020. Learn more about software life-cycles <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha">here</a>. Whilst in active development I cannot gaurentee the results and all responsibility lies with the user. 
