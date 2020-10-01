@@ -46,6 +46,8 @@ Whilst in pre-alpha and alpha development phase please download a release and in
     install.packages("path/to/tar/file", source = TRUE, repos=NULL) 
     library(rCPRD) 
 
+Ideally you should also have a copy of the medical.txt and product.txt files that can be found inside the Windows installation of the CPRD data dictionary. These files are used to name products (e.g., drugs) and medical terms. In their absence the R package will still work, however, the *medcode* and *prodcode* entries will remain as codes.
+
 ## Code Example and Tutorial
 Please see the available R vignette and forth coming publication.  
 
