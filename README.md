@@ -77,9 +77,11 @@ There are basic unit tests one can run. Instruction will be added here in due co
 Please raise an issue for bug fixes or suggested features/improvements. **Please note:** the code is only maintained by myself (Anthony Nash). Unfortunately, issues won't be resolved overnight! I have students to supervise, fellowships and papers to write and my own research to be getting on with. Please be patient. 
 
 ## Credits
-Dr Anthony Nash PhD, University of Oxford, Nuffield Department of Clinical Neurosciences - Design, development, test and research.
-Tingyee Chang MSc, University of Oxford, Nuffield Department of Clinical Neurosciences - Test and research.
-Dr Zameel Cader DPhil, University of Oxford, Nuffield Department of Clinical Neurosciences - Group lead.
+**Dr Anthony Nash PhD**, University of Oxford, Nuffield Department of Clinical Neurosciences - Design, development, test, research, supervisor.
+
+**Tingyee Chang MSc**, University of Oxford, Nuffield Department of Clinical Neurosciences - Test and research.
+
+**Dr Zameel Cader DPhil**, University of Oxford, Nuffield Department of Clinical Neurosciences - Group lead.
 
 
 ## Funding
