@@ -1,4 +1,4 @@
-# RDrugTrajectory
+# RDrugTrajectory - under construction
 An R package designed for the analysis of CPRD prescription electronic healthcare record (EHR) data.
 
 RDrugTrajctory provides an API for analysing raw CPRD EHRs. Functions available include:
@@ -24,16 +24,22 @@ The data attached to the package, images and examples presented here, and the im
 ## Build status
 Under pre-alpha stage until initial release - expected, early October 2020. Learn more about software life-cycles <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha">here</a>.
 
-## Screenshots
+## Example Screenshots
 Example results using **fabricated electronic healthcare records.**
 
+Plotting the number of patients by their first drug prescription (Figure 1) is achieved by simply accessing the frequency data.frame in the FirstDrugObject list-type. The first element holds a named-list (by the drug ID) of patient id vectors, the second entry reflects the first entry in structure but holds the event dates, and the third element is a data.frame of drug by number of first prescriptions on record. With all of this information, one is able to analysis each drug type by social-demographic factors (functions provided). </br>
+
+<center>
 <img src="https://github.com/acnash/RDrugTrajectory/blob/master/images/prescription_frequency.png" width="450" />
+**Figure 1.** First drug prescription (matched to a disease event e.g., headache) frequency. </br> </br>
+</center>
 
-**Figure 1.** First drug prescription (matched to a disease event e.g., headache) frequency. </br>
+RDrugTrajectory can produce the data structure necessary to perform a mean cumulative function (MCF) over several groups. Having first filtered the cohort for only medication of interest, and MCF plot reveals prescription burden by social-demographic factors, for example by social deprivation scores (Figure 2), or whole cohort populations.
 
+<center>
 <img src="https://github.com/acnash/RDrugTrajectory/blob/master/images/IMD_prescriptions.png" width="450" />
-
 **Figure 2.** Cumulative drug prescriptions stratified by patient IMD score.</br>
+</center>
 
 <img src="https://github.com/acnash/RDrugTrajectory/blob/master/images/drug_switch.png" width="450" />
 
