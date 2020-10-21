@@ -65,7 +65,7 @@ Ideally you should also have a copy of the medical.txt and product.txt files tha
 Please see the R vignette, API and forth coming publication.  
 
 ## Code style
-The conventional R code style with original Java/C++ code blocks (showing my age). I do not use the R dot-notation for naming variables and I have avoided the %>% infix notation where possible. The initial release 
+The conventional R code style with original Java/C++ code blocks (showing my age). I do not use the R dot-notation for naming variables and I have avoided the %>% infix notation where possible.  
 
 ## API Reference
 Please see the available R vignette and forth coming publication. An API will be added here in due course.
