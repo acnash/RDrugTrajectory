@@ -4,16 +4,17 @@
 An R package designed for the analysis of CPRD prescription electronic healthcare record (EHR) data.
 
 RDrugTrajctory provides an API for analysing raw CPRD EHRs. Functions available include:
-- loading & saving CPRD raw text files as R data.frames
-- works over the medical.txt and product.txt data files (part of the CPRD data dictionary - not supplied with RDrugTrajectory)
-- retrieving patient IDs, gender, age and index of multiple 
-- retrieve all prescriptions with a matching disease date
-- retrieve the first prescription event for a patient cohort
-- drug prescription incidence rate
-- survival analysis prescription to first event timeline generator 
-- drug prescription demographic data anlysis
-- mean cumulative function plots of drug prescriptions
-- many more function....
+- loading & saving CPRD raw text files as R dataframes.
+- works over the medical.txt and product.txt data files (part of the CPRD data dictionary - not supplied with RDrugTrajectory).
+- retrieving patient IDs, gender, age and index of multiple scores.
+- retrieve all prescriptions with a matching disease date.
+- retrieve the first prescription event for a patient cohort.
+- drug prescription incidence rate.
+- a timeline generator using drug prescription data to use with Cox regression and survival curves (for packages such as REDA).
+- drug prescription demographic data analysis.
+- mean cumulative function plots of drug prescriptions.
+- drug prescription incidence rates.
+- many more functions.
 
 ## Motivation
 CPRD electronic healthcare records are delivered as flat text files. Researchers have two choices, pay a lot of money to use existing tools or write tools of their own. Having faced this problem myself I started developing my own tools three years ago.
@@ -24,7 +25,7 @@ This R package came about as the result of supervising a very talented post-grad
 The data attached to the R package, images and examples presented here, and the images and examples in the accompanying publication (expected soon), **is fabricated and does not in any part represent real patient data.** Our accompanying researech articles have ISAC (Independent Scientific Advisory Committee - UK Gov) approval.
 
 ## Build status
-Under pre-alpha stage until initial release - expected, early October 2020. Learn more about software life-cycles <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha">here</a>. Whilst in active development I cannot gaurentee the results and all responsibility lies with the user. 
+Under pre-alpha stage until initial release - expected, early October 2020. Learn more about software life-cycles <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha">here</a>. Whilst in active development, I cannot guarantee the results and all responsibility rests with the user. 
 
 ## Example Screenshots
 Example results using **fabricated electronic healthcare records.**
