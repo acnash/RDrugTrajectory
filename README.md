@@ -91,4 +91,4 @@ Please raise an issue for bug fixes or suggested features/improvements. **Please
 We are grateful to the Oxford Science Innovation, NIHR Oxford Biomedical Research Centre and NIHR Oxford Health Biomedical Research Centre (Informatics and Digital Health theme, grant BRC-1215-20005) for funding. The views expressed are those of the authors and not necessarily those of the UK National Health Service, the NIHR, or the UK Department of Health. 
 
 ## License
-MIT © Anthony Nash
+MIT © Anthony Nash 2020
