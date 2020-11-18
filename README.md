@@ -20,7 +20,7 @@ RDrugTrajctory provides an API for analysing raw CPRD EHRs. Functions available 
 ## Motivation
 CPRD electronic healthcare records are delivered as flat text files. Researchers have two choices, pay a lot of money to use existing tools or write tools of their own. Having faced this problem myself I started developing my own tools three years ago.
 
-This R package came about as the result of supervising a very talented post-graduate Clinical Neuroscience student (please see Credits). The student's project, titled *"A Longitudinal Cohort Study of Migraine Preventative Medication Usage in UK CPRD"* required immediate access to primary care clinical and prescription records of patients suffering with headache disorders. The CPRD data can be very overwhelming, especially to those with little experience in electronic healthcare records or the manipulation of large data sets. To mitigate this concern I decided to develop a drug-prescription themed R API. Whilst I was writing the R package my student was putting it to use, performing the analysis necessary to answer the research aims whilst reporting bugs and suggesting additional features. My ethos is to build an R package that can interrogate CPRD records whilst requiring minimal R language experience (although some experience goes a long way).  
+This R package came about as the result of supervising a very talented post-graduate Clinical Neuroscience student (please see Credits). The student's project, titled *"A Longitudinal Cohort Study of Migraine Preventative Medication Usage in UK CPRD"* required immediate access to primary care clinical and prescription records of patients suffering with headache disorders. The CPRD data can be very overwhelming, especially to those with little experience in electronic healthcare records or the manipulation of large data sets. To mitigate this concern I decided to develop a drug-prescription themed R API. Whilst I was writing the R package my student was putting it to use, performing the analysis necessary to answer the research aims whilst reporting bugs and suggesting additional features. My goal is to build an R package that can interrogate CPRD records whilst requiring minimal R language experience from the user (although some experience goes a long way).  
 
 ## Ethics
 The data attached to the R package, images and examples presented here, and the images and examples in the accompanying publication (expected soon), **is fabricated and does not in any part represent real patient data.** Our accompanying researech articles have ISAC (Independent Scientific Advisory Committee - UK Gov) approval.
@@ -64,13 +64,13 @@ Whilst in pre-alpha and alpha development phase please download a release and in
 Ideally you should also have a copy of the medical.txt and product.txt files that can be found inside the Windows installation of the CPRD data dictionary. These files are used to name products (e.g., drugs) and medical terms. In their absence the R package will still work, however, the *medcode* and *prodcode* entries will remain coded. Please read the instructions on how to structure your data.
 
 ## Code Example and Tutorial
-The forth coming publication will contain a number of examples, alternatively, check out the </a href="https://github.com/acnash/RDrugTrajectory/blob/master/rCPRD_0.1.13.pdf">reference manual</a>.
+The forth coming publication will contain a number of examples, alternatively, check out the <a href="https://github.com/acnash/RDrugTrajectory/blob/master/rCPRD_0.1.13.pdf">reference manual</a>.
 
 ## Code style
 The conventional R code style with original Java/C++ code blocks (showing my age). I do not use the R dot-notation for naming variables and I have avoided the %>% infix notation where possible.  
 
 ## API Reference
-Please see the available <a ref="https://github.com/acnash/RDrugTrajectory/blob/master/rCPRD_0.1.13.pdf">reference manual</a> and forth coming publication. 
+Please see the available <a href="https://github.com/acnash/RDrugTrajectory/blob/master/rCPRD_0.1.13.pdf">reference manual</a> and forth coming publication. 
 
 ## Tests
 There are basic unit tests one can run. Instruction will be added here in due course.
