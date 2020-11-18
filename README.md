@@ -5,6 +5,7 @@ An R package designed for the analysis of CPRD prescription electronic healthcar
 
 RDrugTrajctory provides an API for analysing raw CPRD EHRs. Functions available include:
 - loading & saving CPRD raw text files as R dataframes.
+- creating mock CPRD data sets.
 - works over the medical.txt and product.txt data files (part of the CPRD data dictionary - not supplied with RDrugTrajectory).
 - retrieving patient IDs, gender, age and index of multiple scores.
 - retrieve all prescriptions with a matching disease date.
@@ -25,7 +26,7 @@ This R package came about as the result of supervising a very talented post-grad
 The data attached to the R package, images and examples presented here, and the images and examples in the accompanying publication (expected soon), **is fabricated and does not in any part represent real patient data.** Our accompanying researech articles have ISAC (Independent Scientific Advisory Committee - UK Gov) approval.
 
 ## Build status
-Under pre-alpha stage until initial release - expected, early October 2020. Learn more about software life-cycles <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha">here</a>. Whilst in active development, I cannot guarantee the results and all responsibility rests with the user. 
+Under pre-alpha stage until initial release - expected, early December 2020. Learn more about software life-cycles <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha">here</a>. Whilst in active development, I cannot guarantee the results and all responsibility rests with the user. 
 
 ## Example Screenshots
 Example results using **fabricated electronic healthcare records.**
@@ -60,16 +61,16 @@ Whilst in pre-alpha and alpha development phase please download a release and in
     install.packages("path/to/tar/file", source = TRUE, repos=NULL) 
     library(rCPRD) 
 
-Ideally you should also have a copy of the medical.txt and product.txt files that can be found inside the Windows installation of the CPRD data dictionary. These files are used to name products (e.g., drugs) and medical terms. In their absence the R package will still work, however, the *medcode* and *prodcode* entries will remain as codes.
+Ideally you should also have a copy of the medical.txt and product.txt files that can be found inside the Windows installation of the CPRD data dictionary. These files are used to name products (e.g., drugs) and medical terms. In their absence the R package will still work, however, the *medcode* and *prodcode* entries will remain coded. Please read the instructions on how to structure your data.
 
 ## Code Example and Tutorial
-Please see the R vignette, API and forth coming publication.  
+The forth coming publication will contain a number of examples, alternatively, check out the </a href="https://github.com/acnash/RDrugTrajectory/blob/master/rCPRD_0.1.13.pdf">reference manual</a>.
 
 ## Code style
 The conventional R code style with original Java/C++ code blocks (showing my age). I do not use the R dot-notation for naming variables and I have avoided the %>% infix notation where possible.  
 
 ## API Reference
-Please see the available R vignette and forth coming publication. An API will be added here in due course.
+Please see the available <a ref="https://github.com/acnash/RDrugTrajectory/blob/master/rCPRD_0.1.13.pdf">reference manual</a> and forth coming publication. 
 
 ## Tests
 There are basic unit tests one can run. Instruction will be added here in due course.
