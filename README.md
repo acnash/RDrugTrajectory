@@ -56,7 +56,12 @@ The first codedraft of RDrugTrajectory is able to plot the change in a patients 
 </center>
 
 ## Installation
-Whilst in pre-alpha and alpha development phase please download a release and install locally:
+Whilst in pre-alpha and alpha development phase please download a release and install locally. The installation happens in two steps:
+
+(1) Install all dependencies first. For example, `install.packages("foreach")`. The dependencies are:
+plyr, dplyr, foreach, doParallel, data.table, parallel, splus2R, rlist, reda, ggplot2, ggalluvial, stats, utils, usefu
+
+(2) Download a copy of the RDrugTrajectory package and install using:
 
     install.packages("path/to/tar/file", source = TRUE, repos=NULL) 
     library(rCPRD) 
