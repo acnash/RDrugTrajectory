@@ -59,7 +59,7 @@ Whilst in alpha development phase, please download a release and install locally
 (1) Install all dependencies first. For example, `install.packages("foreach")`. The dependencies are:
 plyr, dplyr, foreach, doParallel, data.table, parallel, splus2R, rlist, reda, ggplot2, ggalluvial, stats, utils, usefu
 
-(2) Download a copy of the rdrugtrajectory package and install using:
+(2) Download the latest <a href="https://github.com/acnash/RDrugTrajectory/releases">release</a> of rdrugtrajectory and install using:
 
     install.packages("path/to/tar/file", source = TRUE, repos=NULL) 
     library(rCPRD) 
@@ -73,7 +73,7 @@ The forth coming publication will contain a number of examples, for now, please 
 The conventional R code style with original Java/C++ code blocks (showing my age). I do not use the R dot-notation for naming variables and I have avoided the %>% infix notation where possible.  
 
 ## API Reference
-Please see the available <a href="https://github.com/acnash/RDrugTrajectory/blob/master/RDrugTrajectory_0.1.13.pdf">reference manual</a> and forth coming publication. 
+Please see the available <a href="https://github.com/acnash/RDrugTrajectory/blob/master/rdrugtrajectory_0.2.0.pdf">reference manual</a> and forth coming publication. 
 
 ## Tests
 There are basic unit tests one can run. Instruction will be added here in due course.
