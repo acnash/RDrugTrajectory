@@ -1,9 +1,9 @@
 <img align="center" src="https://github.com/acnash/RDrugTrajectory/blob/master/images/mamagnolia_acresunderconstruction.gif" alt="Under Construction"/>    
 
-# RDrugTrajectory
+# rdrugtrajectory
 An R package designed for the analysis of CPRD prescription electronic healthcare record (EHR) data.
 
-RDrugTrajctory provides an API for analysing raw CPRD EHRs. Functions available include:
+rdrugtrajectory provides an API for analysing raw CPRD EHRs. Functions available include:
 - loading & saving CPRD raw text files as R dataframes.
 - creating mock CPRD data sets.
 - works over the medical.txt and product.txt data files (part of the CPRD data dictionary - not supplied with RDrugTrajectory).
@@ -39,7 +39,7 @@ Plotting the number of patients by their first drug prescription (Figure 1) is a
 **Figure 1.** First drug prescription (matched to a disease event e.g., headache) frequency. </br> </br>
 </center>
 
-RDrugTrajectory can produce the data structure necessary to perform a mean cumulative function (MCF) over several groups. Having first filtered the cohort for only medication of interest, and MCF plot reveals prescription burden by social-demographic factors, for example by social deprivation scores (Figure 2), or whole cohort populations. </br>
+rdrugtrajectory can produce the data structure necessary to perform a mean cumulative function (MCF) over several groups. Having first filtered the cohort for only medication of interest, and MCF plot reveals prescription burden by social-demographic factors, for example by social deprivation scores (Figure 2), or whole cohort populations. </br>
 
 <center>
 <img src="https://github.com/acnash/RDrugTrajectory/blob/master/images/IMD_prescriptions.png" width="450" />
@@ -47,7 +47,7 @@ RDrugTrajectory can produce the data structure necessary to perform a mean cumul
 **Figure 2.** Cumulative drug prescriptions stratified by patient IMD score.</br></br>
 </center>
 
-The first codedraft of RDrugTrajectory is able to plot the change in a patients medication starting from their first prescription (Figure 3). Later releases will factor in time.</br>
+The first codedraft of rdrugtrajectory is able to plot the change in a patients medication starting from their first prescription (Figure 3). Later releases will factor in time.</br>
 
 <center>
 <img src="https://github.com/acnash/RDrugTrajectory/blob/master/images/drug_switch.png" width="450" />
@@ -56,12 +56,12 @@ The first codedraft of RDrugTrajectory is able to plot the change in a patients 
 </center>
 
 ## Installation
-Whilst in pre-alpha and alpha development phase please download a release and install locally. The installation happens in two steps:
+Whilst in alpha development phase, please download a release and install locally. The installation happens in two steps:
 
 (1) Install all dependencies first. For example, `install.packages("foreach")`. The dependencies are:
 plyr, dplyr, foreach, doParallel, data.table, parallel, splus2R, rlist, reda, ggplot2, ggalluvial, stats, utils, usefu
 
-(2) Download a copy of the RDrugTrajectory package and install using:
+(2) Download a copy of the rdrugtrajectory package and install using:
 
     install.packages("path/to/tar/file", source = TRUE, repos=NULL) 
     library(rCPRD) 
