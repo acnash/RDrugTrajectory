@@ -66,8 +66,8 @@ plyr, dplyr, foreach, doParallel, data.table, parallel, splus2R, rlist, reda, gg
 
 Ideally you should also have a copy of the medical.txt and product.txt files that can be found inside the Windows installation of the CPRD data dictionary. These files are used to name products (e.g., drugs) and medical terms. In their absence the R package will still work, however, the *medcode* and *prodcode* entries will remain coded. Please read the instructions on how to structure your data.
 
-## Code Example and Tutorial
-The forth coming publication will contain a number of examples, alternatively, check out the <a href="https://github.com/acnash/RDrugTrajectory/blob/master/rdrugtrajectory_0.2.0.pdf">reference manual</a>.
+## Reference manual
+The forth coming publication will contain a number of examples, for now, please check out the <a href="https://github.com/acnash/RDrugTrajectory/blob/master/rdrugtrajectory_0.2.0.pdf">reference manual</a>.
 
 ## Code style
 The conventional R code style with original Java/C++ code blocks (showing my age). I do not use the R dot-notation for naming variables and I have avoided the %>% infix notation where possible.  
