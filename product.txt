@@ -1,0 +1,18 @@
+5	60153020	14958680	Atenolol 50mg tablets	Atenolol	50mg	Tablet	Oral	2040000	Beta-adrenoceptor Blocking Drugs	Feb-09	3059002
+24	60152020	5354283	Atenolol 100mg tablets	Atenolol	100mg	Tablet	Oral	2040000	Beta-adrenoceptor Blocking Drugs	Feb-09	3059001
+26	67920020	6869099	Atenolol 25mg tablets	Atenolol	25mg	Tablet	Oral	2040000	Beta-adrenoceptor Blocking Drugs	Feb-09	5070002
+49	58950020	4920857	Amitriptyline 25mg tablets	Amitriptyline hydrochloride	25mg	Tablet	Oral	04030100/04070300/04070402	Tricyclic And Related Antidepressant Drugs/Neuropathic Pain/Prophylaxis Of Migraine	Feb-09	2776002
+65	68572020	4771731	Lisinopril 10mg tablets	Lisinopril	10mg	Tablet	Oral	2050501	Angiotensin-converting Enzyme Inhibitors	Feb-09	5250003
+78	68571020	4006669	Lisinopril 5mg tablets	Lisinopril	5mg	Tablet	Oral	2050501	Angiotensin-converting Enzyme Inhibitors	Feb-09	5250002
+83	58949020	6181767	Amitriptyline 10mg tablets	Amitriptyline hydrochloride	10mg	Tablet	Oral	04030100/04070300/04070402	Tricyclic And Related Antidepressant Drugs/Neuropathic Pain/Prophylaxis Of Migraine	Feb-09	2776001
+297	59368020	1615111	Propranolol 10mg tablets	Propranolol hydrochloride	10mg	Tablet	Oral	02040000/04070402/04090300/06020200	"Beta-adrenoceptor Blocking Drugs/Prophylaxis Of Migraine/Drugs For Essential Tremor, Chorea, Tics, And Related Disorders/Antithyroid Drugs"	Feb-09	2876001
+277	68570020	1962854	Lisinopril 2.5mg tablets	Lisinopril	2.5mg	Tablet	Oral	2050501	Angiotensin-converting Enzyme Inhibitors	Feb-09	5250001
+301	54686020	664498	Venlafaxine 37.5mg tablets	Venlafaxine hydrochloride	37.5mg	Tablet	Oral	4030400	Other Antidepressant Drugs	Feb-09	1663001
+470	85108020	1334317	Venlafaxine 75mg modified-release capsules	Venlafaxine hydrochloride	75mg	Modified-release capsule	Oral	4030400	Other Antidepressant Drugs	Feb-09	11223001
+529	81323020	448270	Candesartan 2mg tablets	Candesartan cilexetil	2mg	Tablet	Oral	2050502	Angiotensin-ii Receptor Antagonists	Feb-09	9496001
+531	81324020	1441226	Candesartan 4mg tablets	Candesartan cilexetil	4mg	Tablet	Oral	2050502	Angiotensin-ii Receptor Antagonists	Feb-09	9496002
+707	59369020	2079601	Propranolol 40mg tablets	Propranolol hydrochloride	40mg	Tablet	Oral	02040000/04070402/04090300/06020200	"Beta-adrenoceptor Blocking Drugs/Prophylaxis Of Migraine/Drugs For Essential Tremor, Chorea, Tics, And Related Disorders/Antithyroid Drugs"	Feb-09	2876002
+940	59370020	254428	Propranolol 80mg tablets	Propranolol hydrochloride	80mg	Tablet	Oral	02040000/04070402/04090300/06020200	"Beta-adrenoceptor Blocking Drugs/Prophylaxis Of Migraine/Drugs For Essential Tremor, Chorea, Tics, And Related Disorders/Antithyroid Drugs"	Feb-09	2876003
+1888	58951020	2483675	Amitriptyline 50mg tablets	Amitriptyline hydrochloride	50mg	Tablet	Oral	04030100/04070300/04070402	Tricyclic And Related Antidepressant Drugs/Neuropathic Pain/Prophylaxis Of Migraine	Feb-09	2776003
+11237	80220020	113605	Topiramate 25mg tablets	Topiramate	25mg	Tablet	Oral	04070402/04080100	Prophylaxis Of Migraine/Control Of Epilepsy	Feb-09	8955001
+39359	96445020	255704	Venlafaxine 75mg modified-release tablets	Venlafaxine Hydrochloride	75mg	Modified Release Tablet	Oral	4030400	Other Antidepressant Drugs	Apr-09	16839001
