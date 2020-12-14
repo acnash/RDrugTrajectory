@@ -1,7 +1,7 @@
 Package: rdrugtrajectory
 Type: Package
 Title: Drug Analysis for Electronic Healthcare Records
-Version: 0.2.0
+Version: 0.2.1
 Author: Anthony Nash
 Maintainer: The package maintainer <anthony.nash@ndcn.ox.ac.uk>
 Description: -alpha release- An R package for CPRD electronic healthcare records drug prescription analysis. Contains a set of funnctions to aid the curation, storage and retrieval, and analysis of CPRD records. CPRD records are expected to be loaded into the R environment, further information is available in the accompanying manuscript and on the Github page https://github.com/acnash/RDrugTrajectory
