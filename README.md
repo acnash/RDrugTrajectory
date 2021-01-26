@@ -62,7 +62,7 @@ plyr, dplyr, foreach, doParallel, data.table, parallel, splus2R, rlist, reda, gg
 (2) Download the latest <a href="https://github.com/acnash/RDrugTrajectory/releases">release</a> of rdrugtrajectory and install using:
 
     install.packages("path/to/tar/file", source = TRUE, repos=NULL) 
-    library(rCPRD) 
+    library(rdrugtrajectory) 
 
 Ideally you should also have a copy of the medical.txt and product.txt files that can be found inside the Windows installation of the CPRD data dictionary. These files are used to name products (e.g., drugs) and medical terms. In their absence the R package will still work, however, the *medcode* and *prodcode* entries will remain coded. Please read the instructions on how to structure your data.
 
