@@ -15,6 +15,11 @@ rdrugtrajectory provides an API for analysing raw CPRD EHRs. Functions available
 - drug prescription incidence rates.
 - many more functions.
 
+# News
+Coming soon to version 0.2.2 
+- interrupted time series analysis for CPRD data.
+- segmented regression analysis for CPRD data.
+
 ## Motivation
 CPRD electronic healthcare records are delivered as flat text files. Researchers have two choices, pay a lot of money to use existing tools or write tools of their own. Having faced this problem myself I started developing my own tools three years ago.
 
