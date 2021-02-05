@@ -19,6 +19,10 @@ rdrugtrajectory provides an API for analysing raw CPRD EHRs. Functions available
 Coming soon to version 0.2.2 
 - interrupted time series analysis for CPRD data.
 - segmented regression analysis for CPRD data.
+- HTML time series (uses the R packages timevis and htmltools) plots of patient medical history (example contains fabricated data). 
+<center>
+<img src="https://github.com/acnash/RDrugTrajectory/blob/master/images/timeseries.jpg" width="450" />
+</center>
 
 ## Motivation
 CPRD electronic healthcare records are delivered as flat text files. Researchers have two choices, pay a lot of money to use existing tools or write tools of their own. Having faced this problem myself I started developing my own tools three years ago.
