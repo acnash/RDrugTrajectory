@@ -81,6 +81,9 @@ The forth coming publication will contain a number of examples, for now, please 
 ## Code style
 The conventional R code style with original Java/C++ code blocks (showing my age). I do not use the R dot-notation for naming variables and I have avoided the %>% infix notation where possible.  
 
+## Tutorials
+Please head over to the <a href="https://github.com/acnash/RDrugTrajectory/wiki">wiki page</a> for scenario based tutorials. 
+
 ## API Reference
 Please see the available <a href="https://github.com/acnash/RDrugTrajectory/blob/master/rdrugtrajectory_0.2.0.pdf">reference manual</a> and forth coming publication. 
 
