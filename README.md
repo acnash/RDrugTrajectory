@@ -16,7 +16,11 @@ rdrugtrajectory provides an API for analysing raw CPRD EHRs. Functions available
 - many more functions.
 
 # News
-Coming soon to version 0.2.2 
+Coming soon in version 0.2.2 
+- bug fixes (notably checking the quality of the data passed into each function).
+- combining clinical and therapeutic consid (consultation IDs) to increase the reliability of the FirstDrugObject (FDO) results.
+- the ability to subset a FirstDrugObject.
+- Event (medical/therapeutic) covariate table building - a binary matrix to indicate whether an event for a patient during a time period was recorded.  
 - interrupted time series analysis for CPRD data.
 - segmented regression analysis for CPRD data.
 - HTML time series (uses the R packages timevis and htmltools) plots of patient medical history (example contains fabricated data). 
