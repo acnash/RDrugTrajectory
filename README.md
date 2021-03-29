@@ -70,7 +70,7 @@ The first codedraft of rdrugtrajectory is able to plot the change in a patients 
 Whilst in alpha development phase, please download a release and install locally. The installation happens in two steps:
 
 (1) Install all dependencies first. For example, `install.packages("foreach")`. The dependencies are:
-plyr, dplyr, foreach, doParallel, data.table, parallel, splus2R, rlist, reda, ggplot2, ggalluvial, stats, utils, usefu
+plyr, dplyr, foreach, doParallel, data.table, parallel, splus2R, rlist, reda, ggplot2, ggalluvial, stats, utils, useful
 
 (2) Download the latest <a href="https://github.com/acnash/RDrugTrajectory/releases">release</a> of rdrugtrajectory and install using:
 
